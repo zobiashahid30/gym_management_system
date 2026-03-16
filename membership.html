@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GymPro Membership Plans - Choose Your Perfect Plan">
+    <title>Membership Plans - GymPro</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox">
+    
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <a href="index.html">Gym<span>Pro</span></a>
+                </div>
+                <input type="checkbox" id="hamburger-menu" class="hamburger-checkbox">
+                <label class="hamburger-toggle" for="hamburger-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="trainers.html" class="nav-link">Trainers</a></li>
+                    <li><a href="membership.html" class="nav-link active">Membership</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                    <li><a href="login.html" class="nav-link">Login</a></li>
+                    <li><a href="signup.html" class="btn-nav">Sign Up</a></li>
+                </ul>
+                <label for="theme-toggle" class="theme-toggle-btn">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Membership Plans</h1>
+            <p>Choose the perfect plan for your fitness goals</p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <div class="pricing-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Basic</h3>
+                        <p class="plan-description">Perfect for beginners</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount">29</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li class="included">✓ Access to gym facilities</li>
+                        <li class="included">✓ Locker room access</li>
+                        <li class="included">✓ Basic equipment usage</li>
+                        <li class="included">✓ Shower facilities</li>
+                        <li class="included">✓ Free WiFi</li>
+                        <li class="excluded">✗ Personal trainer sessions</li>
+                        <li class="excluded">✗ Group classes</li>
+                        <li class="excluded">✗ Diet plan</li>
+                        <li class="excluded">✗ Spa & sauna</li>
+                    </ul>
+                    <a href="signup.html" class="btn-pricing">Choose Basic</a>
+                </div>
+
+                <!-- Standard Plan -->
+                <div class="pricing-card popular">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Standard</h3>
+                        <p class="plan-description">Best value for money</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount">59</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li class="included">✓ All Basic features</li>
+                        <li class="included">✓ Unlimited group classes</li>
+                        <li class="included">✓ Advanced equipment access</li>
+                        <li class="included">✓ 2 personal training sessions/month</li>
+                        <li class="included">✓ Fitness assessment</li>
+                        <li class="included">✓ Workout plan</li>
+                        <li class="included">✓ Mobile app access</li>
+                        <li class="excluded">✗ Custom diet plan</li>
+                        <li class="excluded">✗ Spa & sauna</li>
+                    </ul>
+                    <a href="signup.html" class="btn-pricing">Choose Standard</a>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3 class="plan-name">Premium</h3>
+                        <p class="plan-description">Ultimate fitness experience</p>
+                    </div>
+                    <div class="plan-price">
+                        <span class="currency">$</span>
+                        <span class="amount">99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="plan-features">
+                        <li class="included">✓ All Standard features</li>
+                        <li class="included">✓ Unlimited personal training</li>
+                        <li class="included">✓ Custom nutrition plan</li>
+                        <li class="included">✓ Spa & sauna access</li>
+                        <li class="included">✓ Priority booking</li>
+                        <li class="included">✓ Guest passes (2/month)</li>
+                        <li class="included">✓ Massage therapy (1/month)</li>
+                        <li class="included">✓ Premium locker</li>
+                        <li class="included">✓ 24/7 support</li>
+                    </ul>
+                    <a href="signup.html" class="btn-pricing">Choose Premium</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">All Plans Include</h2>
+                <p class="section-subtitle">Standard benefits for every member</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-item">
+                    <div class="benefit-icon">🔒</div>
+                    <h3>Secure Lockers</h3>
+                    <p>Personal lockers for your belongings</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🚿</div>
+                    <h3>Clean Facilities</h3>
+                    <p>Well-maintained showers and amenities</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">📱</div>
+                    <h3>Mobile App</h3>
+                    <p>Track progress on the go</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🎵</div>
+                    <h3>Music Zone</h3>
+                    <p>Energizing workout playlists</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">🅿️</div>
+                    <h3>Free Parking</h3>
+                    <p>Convenient parking facilities</p>
+                </div>
+                <div class="benefit-item">
+                    <div class="benefit-icon">💧</div>
+                    <h3>Water Stations</h3>
+                    <p>Stay hydrated during workouts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know</p>
+            </div>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>Can I cancel my membership anytime?</h3>
+                    <p>Yes, you can cancel your membership at any time with 30 days notice. No hidden fees or long-term contracts.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer student discounts?</h3>
+                    <p>Yes! Students get 20% off on all membership plans with a valid student ID.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Can I upgrade my plan later?</h3>
+                    <p>Absolutely! You can upgrade or downgrade your plan at any time. Changes take effect from the next billing cycle.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Is there a joining fee?</h3>
+                    <p>We occasionally waive the joining fee during promotional periods. Contact us for current offers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-logo">Gym<span>Pro</span></h3>
+                    <p>Transform your body, transform your life with the best gym management system.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">FB</a>
+                        <a href="#" class="social-icon">TW</a>
+                        <a href="#" class="social-icon">IG</a>
+                        <a href="#" class="social-icon">YT</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="trainers.html">Trainers</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Personal Training</a></li>
+                        <li><a href="#">Group Classes</a></li>
+                        <li><a href="#">Nutrition Coaching</a></li>
+                        <li><a href="#">Cardio Programs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-list">
+                        <li>📍 123 Fitness Street, NY 10001</li>
+                        <li>📞 +1 (555) 123-4567</li>
+                        <li>✉️ info@gympro.com</li>
+                        <li>🕐 Open 24/7</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 GymPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
